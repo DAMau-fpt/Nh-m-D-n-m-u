@@ -21,7 +21,7 @@
 
 <p align="center"> 
   <samp>
-    <a href="https://www.google.com/search?q=Al+Siam">「 Google Me 」</a>
+    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">「 Google Me 」</a>
     <br>
     「 I am a full stack web application developer from <b>Vietnamese</b> 」
     <br>
