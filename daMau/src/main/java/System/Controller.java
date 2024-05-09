@@ -41,41 +41,41 @@ public class Controller extends javax.swing.JFrame {
         jMenu3 = new javax.swing.JMenu();
         jMenu4 = new javax.swing.JMenu();
         jToolBar1 = new javax.swing.JToolBar();
-        jToggleButton1 = new javax.swing.JToggleButton();
-        jButton1 = new javax.swing.JButton();
+        bntDangXuat = new javax.swing.JToggleButton();
+        bntKetThuc = new javax.swing.JButton();
         jSeparator6 = new javax.swing.JToolBar.Separator();
-        jToggleButton2 = new javax.swing.JToggleButton();
-        jToggleButton3 = new javax.swing.JToggleButton();
-        jToggleButton4 = new javax.swing.JToggleButton();
+        bntChuyenDe = new javax.swing.JToggleButton();
+        bntNguoiHoc = new javax.swing.JToggleButton();
+        bntKhoaHoc = new javax.swing.JToggleButton();
         jSeparator7 = new javax.swing.JToolBar.Separator();
-        jButton2 = new javax.swing.JButton();
+        bntHuongDan = new javax.swing.JButton();
         jToolBar2 = new javax.swing.JToolBar();
         jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        lbFPT = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
-        jMenu1 = new javax.swing.JMenu();
-        jMenuItem1 = new javax.swing.JMenuItem();
-        jMenuItem2 = new javax.swing.JMenuItem();
+        mnHeThong = new javax.swing.JMenu();
+        mnitDangNhap = new javax.swing.JMenuItem();
+        mnitDangXuat = new javax.swing.JMenuItem();
         jSeparator1 = new javax.swing.JPopupMenu.Separator();
-        jMenuItem3 = new javax.swing.JMenuItem();
+        mnitDoiMK = new javax.swing.JMenuItem();
         jSeparator2 = new javax.swing.JPopupMenu.Separator();
-        jMenuItem4 = new javax.swing.JMenuItem();
-        jMenu2 = new javax.swing.JMenu();
-        jMenuItem5 = new javax.swing.JMenuItem();
-        jMenuItem6 = new javax.swing.JMenuItem();
-        jMenuItem7 = new javax.swing.JMenuItem();
-        jMenuItem8 = new javax.swing.JMenuItem();
-        jMenu5 = new javax.swing.JMenu();
-        jMenuItem9 = new javax.swing.JMenuItem();
+        mnitThoat = new javax.swing.JMenuItem();
+        mnQuanLy = new javax.swing.JMenu();
+        mnitNguoiHoc = new javax.swing.JMenuItem();
+        mnitChuyenDe = new javax.swing.JMenuItem();
+        mnitKhoaHoc = new javax.swing.JMenuItem();
+        mnitNhanVien = new javax.swing.JMenuItem();
+        mnThongKe = new javax.swing.JMenu();
+        mnitNguoiHocTungNam = new javax.swing.JMenuItem();
         jSeparator3 = new javax.swing.JPopupMenu.Separator();
-        jMenuItem10 = new javax.swing.JMenuItem();
-        jMenuItem11 = new javax.swing.JMenuItem();
+        mnitBangDiemKhoa = new javax.swing.JMenuItem();
+        mnitDiemTungKhoaHoc = new javax.swing.JMenuItem();
         jSeparator4 = new javax.swing.JPopupMenu.Separator();
-        jMenuItem12 = new javax.swing.JMenuItem();
-        jMenu6 = new javax.swing.JMenu();
-        jMenuItem13 = new javax.swing.JMenuItem();
+        mnitDoangThu = new javax.swing.JMenuItem();
+        mnTroGiup = new javax.swing.JMenu();
+        mnitHDSD = new javax.swing.JMenuItem();
         jSeparator5 = new javax.swing.JPopupMenu.Separator();
-        jMenuItem14 = new javax.swing.JMenuItem();
+        mnitGTSP = new javax.swing.JMenuItem();
 
         jMenu3.setText("File");
         jMenuBar2.add(jMenu3);
@@ -87,49 +87,49 @@ public class Controller extends javax.swing.JFrame {
 
         jToolBar1.setRollover(true);
 
-        jToggleButton1.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\door.png")); // NOI18N
-        jToggleButton1.setText("Đăng xuất");
-        jToggleButton1.setFocusable(false);
-        jToggleButton1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jToggleButton1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jToolBar1.add(jToggleButton1);
+        bntDangXuat.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\door.png")); // NOI18N
+        bntDangXuat.setText("Đăng xuất");
+        bntDangXuat.setFocusable(false);
+        bntDangXuat.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        bntDangXuat.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jToolBar1.add(bntDangXuat);
 
-        jButton1.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\stop.png")); // NOI18N
-        jButton1.setText("Kết thúc");
-        jButton1.setFocusable(false);
-        jButton1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton1.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jToolBar1.add(jButton1);
+        bntKetThuc.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\stop.png")); // NOI18N
+        bntKetThuc.setText("Kết thúc");
+        bntKetThuc.setFocusable(false);
+        bntKetThuc.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        bntKetThuc.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jToolBar1.add(bntKetThuc);
         jToolBar1.add(jSeparator6);
 
-        jToggleButton2.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\documents.png")); // NOI18N
-        jToggleButton2.setText("Chuyên đề");
-        jToggleButton2.setFocusable(false);
-        jToggleButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jToggleButton2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jToolBar1.add(jToggleButton2);
+        bntChuyenDe.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\documents.png")); // NOI18N
+        bntChuyenDe.setText("Chuyên đề");
+        bntChuyenDe.setFocusable(false);
+        bntChuyenDe.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        bntChuyenDe.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jToolBar1.add(bntChuyenDe);
 
-        jToggleButton3.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\user.png")); // NOI18N
-        jToggleButton3.setText("Người học");
-        jToggleButton3.setFocusable(false);
-        jToggleButton3.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jToggleButton3.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jToolBar1.add(jToggleButton3);
+        bntNguoiHoc.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\user.png")); // NOI18N
+        bntNguoiHoc.setText("Người học");
+        bntNguoiHoc.setFocusable(false);
+        bntNguoiHoc.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        bntNguoiHoc.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jToolBar1.add(bntNguoiHoc);
 
-        jToggleButton4.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\online-course.png")); // NOI18N
-        jToggleButton4.setText("Khóa học");
-        jToggleButton4.setFocusable(false);
-        jToggleButton4.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jToggleButton4.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jToolBar1.add(jToggleButton4);
+        bntKhoaHoc.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\online-course.png")); // NOI18N
+        bntKhoaHoc.setText("Khóa học");
+        bntKhoaHoc.setFocusable(false);
+        bntKhoaHoc.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        bntKhoaHoc.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jToolBar1.add(bntKhoaHoc);
         jToolBar1.add(jSeparator7);
 
-        jButton2.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\planet-earth.png")); // NOI18N
-        jButton2.setText("Hướng dẫn");
-        jButton2.setFocusable(false);
-        jButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        jButton2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
-        jToolBar1.add(jButton2);
+        bntHuongDan.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\planet-earth.png")); // NOI18N
+        bntHuongDan.setText("Hướng dẫn");
+        bntHuongDan.setFocusable(false);
+        bntHuongDan.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        bntHuongDan.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        jToolBar1.add(bntHuongDan);
 
         jToolBar2.setRollover(true);
 
@@ -138,98 +138,103 @@ public class Controller extends javax.swing.JFrame {
         jLabel1.setText("Hệ quản lý đào tạo");
         jToolBar2.add(jLabel1);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\logo-FPT-Polytechnic-.png")); // NOI18N
+        lbFPT.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\logo-FPT-Polytechnic-.png")); // NOI18N
 
-        jMenu1.setText("Hệ Thống");
+        mnHeThong.setText("Hệ Thống");
 
-        jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_L, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMenuItem1.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\key.png")); // NOI18N
-        jMenuItem1.setText("Đăng nhập");
-        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+        mnitDangNhap.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_L, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        mnitDangNhap.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\key.png")); // NOI18N
+        mnitDangNhap.setText("Đăng nhập");
+        mnitDangNhap.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem1ActionPerformed(evt);
+                mnitDangNhapActionPerformed(evt);
             }
         });
-        jMenu1.add(jMenuItem1);
+        mnHeThong.add(mnitDangNhap);
 
-        jMenuItem2.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_O, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        jMenuItem2.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\door.png")); // NOI18N
-        jMenuItem2.setText("Đăng xuất");
-        jMenu1.add(jMenuItem2);
-        jMenu1.add(jSeparator1);
+        mnitDangXuat.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_O, java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        mnitDangXuat.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\door.png")); // NOI18N
+        mnitDangXuat.setText("Đăng xuất");
+        mnHeThong.add(mnitDangXuat);
+        mnHeThong.add(jSeparator1);
 
-        jMenuItem3.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\exchange.png")); // NOI18N
-        jMenuItem3.setText("Đổi mật khẩu");
-        jMenu1.add(jMenuItem3);
-        jMenu1.add(jSeparator2);
+        mnitDoiMK.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\exchange.png")); // NOI18N
+        mnitDoiMK.setText("Đổi mật khẩu");
+        mnHeThong.add(mnitDoiMK);
+        mnHeThong.add(jSeparator2);
 
-        jMenuItem4.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F10, 0));
-        jMenuItem4.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\stop.png")); // NOI18N
-        jMenuItem4.setText("Kết thúc");
-        jMenu1.add(jMenuItem4);
+        mnitThoat.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F10, 0));
+        mnitThoat.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\stop.png")); // NOI18N
+        mnitThoat.setText("Kết thúc");
+        mnHeThong.add(mnitThoat);
 
-        jMenuBar1.add(jMenu1);
+        jMenuBar1.add(mnHeThong);
 
-        jMenu2.setText("Quản lý");
+        mnQuanLy.setText("Quản lý");
 
-        jMenuItem5.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\user.png")); // NOI18N
-        jMenuItem5.setText("Người học");
-        jMenu2.add(jMenuItem5);
+        mnitNguoiHoc.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\user.png")); // NOI18N
+        mnitNguoiHoc.setText("Người học");
+        mnQuanLy.add(mnitNguoiHoc);
 
-        jMenuItem6.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\documents.png")); // NOI18N
-        jMenuItem6.setText("Chuyên đề");
-        jMenu2.add(jMenuItem6);
-
-        jMenuItem7.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\online-course.png")); // NOI18N
-        jMenuItem7.setText("Khóa học");
-        jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
+        mnitChuyenDe.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\documents.png")); // NOI18N
+        mnitChuyenDe.setText("Chuyên đề");
+        mnitChuyenDe.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem7ActionPerformed(evt);
+                mnitChuyenDeActionPerformed(evt);
             }
         });
-        jMenu2.add(jMenuItem7);
+        mnQuanLy.add(mnitChuyenDe);
 
-        jMenuItem8.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\audience (1).png")); // NOI18N
-        jMenuItem8.setText("Nhân viên");
-        jMenu2.add(jMenuItem8);
+        mnitKhoaHoc.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\online-course.png")); // NOI18N
+        mnitKhoaHoc.setText("Khóa học");
+        mnitKhoaHoc.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mnitKhoaHocActionPerformed(evt);
+            }
+        });
+        mnQuanLy.add(mnitKhoaHoc);
 
-        jMenuBar1.add(jMenu2);
+        mnitNhanVien.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\audience (1).png")); // NOI18N
+        mnitNhanVien.setText("Nhân viên");
+        mnQuanLy.add(mnitNhanVien);
 
-        jMenu5.setText("Thống kê");
+        jMenuBar1.add(mnQuanLy);
 
-        jMenuItem9.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\student.png")); // NOI18N
-        jMenuItem9.setText("Người học từng năm");
-        jMenu5.add(jMenuItem9);
-        jMenu5.add(jSeparator3);
+        mnThongKe.setText("Thống kê");
 
-        jMenuItem10.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\transcript.png")); // NOI18N
-        jMenuItem10.setText("Bảng điểm khóa...");
-        jMenu5.add(jMenuItem10);
+        mnitNguoiHocTungNam.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\student.png")); // NOI18N
+        mnitNguoiHocTungNam.setText("Người học từng năm");
+        mnThongKe.add(mnitNguoiHocTungNam);
+        mnThongKe.add(jSeparator3);
 
-        jMenuItem11.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\transcript (1).png")); // NOI18N
-        jMenuItem11.setText("Điểm từng khóa học");
-        jMenu5.add(jMenuItem11);
-        jMenu5.add(jSeparator4);
+        mnitBangDiemKhoa.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\transcript.png")); // NOI18N
+        mnitBangDiemKhoa.setText("Bảng điểm khóa...");
+        mnThongKe.add(mnitBangDiemKhoa);
 
-        jMenuItem12.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\dollar-symbol.png")); // NOI18N
-        jMenuItem12.setText("Doang thu từng chuyên đề...");
-        jMenu5.add(jMenuItem12);
+        mnitDiemTungKhoaHoc.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\transcript (1).png")); // NOI18N
+        mnitDiemTungKhoaHoc.setText("Điểm từng khóa học");
+        mnThongKe.add(mnitDiemTungKhoaHoc);
+        mnThongKe.add(jSeparator4);
 
-        jMenuBar1.add(jMenu5);
+        mnitDoangThu.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\dollar-symbol.png")); // NOI18N
+        mnitDoangThu.setText("Doang thu từng chuyên đề...");
+        mnThongKe.add(mnitDoangThu);
 
-        jMenu6.setText("Trợ giúp");
+        jMenuBar1.add(mnThongKe);
 
-        jMenuItem13.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F1, 0));
-        jMenuItem13.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\planet-earth.png")); // NOI18N
-        jMenuItem13.setText("Hướng dẫn sử dụng");
-        jMenu6.add(jMenuItem13);
-        jMenu6.add(jSeparator5);
+        mnTroGiup.setText("Trợ giúp");
 
-        jMenuItem14.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\house.png")); // NOI18N
-        jMenuItem14.setText("Giới thiệu sản phẩm");
-        jMenu6.add(jMenuItem14);
+        mnitHDSD.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F1, 0));
+        mnitHDSD.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\planet-earth.png")); // NOI18N
+        mnitHDSD.setText("Hướng dẫn sử dụng");
+        mnTroGiup.add(mnitHDSD);
+        mnTroGiup.add(jSeparator5);
 
-        jMenuBar1.add(jMenu6);
+        mnitGTSP.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\house.png")); // NOI18N
+        mnitGTSP.setText("Giới thiệu sản phẩm");
+        mnTroGiup.add(mnitGTSP);
+
+        jMenuBar1.add(mnTroGiup);
 
         setJMenuBar(jMenuBar1);
 
@@ -244,7 +249,7 @@ public class Controller extends javax.swing.JFrame {
             .addComponent(jToolBar2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addGap(141, 141, 141)
-                .addComponent(jLabel2)
+                .addComponent(lbFPT)
                 .addContainerGap(157, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -252,7 +257,7 @@ public class Controller extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jToolBar1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(44, 44, 44)
-                .addComponent(jLabel2)
+                .addComponent(lbFPT)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 61, Short.MAX_VALUE)
                 .addComponent(jToolBar2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
@@ -260,13 +265,17 @@ public class Controller extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+    private void mnitDangNhapActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mnitDangNhapActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem1ActionPerformed
+    }//GEN-LAST:event_mnitDangNhapActionPerformed
 
-    private void jMenuItem7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem7ActionPerformed
+    private void mnitKhoaHocActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mnitKhoaHocActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jMenuItem7ActionPerformed
+    }//GEN-LAST:event_mnitKhoaHocActionPerformed
+
+    private void mnitChuyenDeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mnitChuyenDeActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_mnitChuyenDeActionPerformed
 
     /**
      * @param args the command line arguments
@@ -303,32 +312,17 @@ public class Controller extends javax.swing.JFrame {
         });
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
+    private javax.swing.JToggleButton bntChuyenDe;
+    private javax.swing.JToggleButton bntDangXuat;
+    private javax.swing.JButton bntHuongDan;
+    private javax.swing.JButton bntKetThuc;
+    private javax.swing.JToggleButton bntKhoaHoc;
+    private javax.swing.JToggleButton bntNguoiHoc;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JMenu jMenu1;
-    private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenu jMenu4;
-    private javax.swing.JMenu jMenu5;
-    private javax.swing.JMenu jMenu6;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuBar jMenuBar2;
-    private javax.swing.JMenuItem jMenuItem1;
-    private javax.swing.JMenuItem jMenuItem10;
-    private javax.swing.JMenuItem jMenuItem11;
-    private javax.swing.JMenuItem jMenuItem12;
-    private javax.swing.JMenuItem jMenuItem13;
-    private javax.swing.JMenuItem jMenuItem14;
-    private javax.swing.JMenuItem jMenuItem2;
-    private javax.swing.JMenuItem jMenuItem3;
-    private javax.swing.JMenuItem jMenuItem4;
-    private javax.swing.JMenuItem jMenuItem5;
-    private javax.swing.JMenuItem jMenuItem6;
-    private javax.swing.JMenuItem jMenuItem7;
-    private javax.swing.JMenuItem jMenuItem8;
-    private javax.swing.JMenuItem jMenuItem9;
     private javax.swing.JPopupMenu.Separator jSeparator1;
     private javax.swing.JPopupMenu.Separator jSeparator2;
     private javax.swing.JPopupMenu.Separator jSeparator3;
@@ -336,12 +330,27 @@ public class Controller extends javax.swing.JFrame {
     private javax.swing.JPopupMenu.Separator jSeparator5;
     private javax.swing.JToolBar.Separator jSeparator6;
     private javax.swing.JToolBar.Separator jSeparator7;
-    private javax.swing.JToggleButton jToggleButton1;
-    private javax.swing.JToggleButton jToggleButton2;
-    private javax.swing.JToggleButton jToggleButton3;
-    private javax.swing.JToggleButton jToggleButton4;
     private javax.swing.JToolBar jToolBar1;
     private javax.swing.JToolBar jToolBar2;
+    private javax.swing.JLabel lbFPT;
+    private javax.swing.JMenu mnHeThong;
+    private javax.swing.JMenu mnQuanLy;
+    private javax.swing.JMenu mnThongKe;
+    private javax.swing.JMenu mnTroGiup;
+    private javax.swing.JMenuItem mnitBangDiemKhoa;
+    private javax.swing.JMenuItem mnitChuyenDe;
+    private javax.swing.JMenuItem mnitDangNhap;
+    private javax.swing.JMenuItem mnitDangXuat;
+    private javax.swing.JMenuItem mnitDiemTungKhoaHoc;
+    private javax.swing.JMenuItem mnitDoangThu;
+    private javax.swing.JMenuItem mnitDoiMK;
+    private javax.swing.JMenuItem mnitGTSP;
+    private javax.swing.JMenuItem mnitHDSD;
+    private javax.swing.JMenuItem mnitKhoaHoc;
+    private javax.swing.JMenuItem mnitNguoiHoc;
+    private javax.swing.JMenuItem mnitNguoiHocTungNam;
+    private javax.swing.JMenuItem mnitNhanVien;
+    private javax.swing.JMenuItem mnitThoat;
     // End of variables declaration//GEN-END:variables
 }
 
