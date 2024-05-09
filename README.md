@@ -76,7 +76,7 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 <br>
         <samp>
-    「 Cái này chi để cho vui thôi -_-<b>❤️</b> 」
+    「 Cái này chỉ để cho vui thôi -_-<b>❤️</b> 」
         </samp>
     <br>
 <br/>
