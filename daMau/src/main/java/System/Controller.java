@@ -25,9 +25,6 @@ public class Controller extends javax.swing.JFrame {
     public Controller() {
         initComponents();
     }
-    
-    CurrentTimeLabel currentTimeLable = new CurrentTimeLabel();
-    timeLabel = currentTimeLable.getTimeLabel();
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -352,44 +349,4 @@ public class Controller extends javax.swing.JFrame {
     private javax.swing.JMenuItem mnitNhanVien;
     private javax.swing.JMenuItem mnitThoat;
     // End of variables declaration//GEN-END:variables
-}
-
-class CurrentTimeLabel extends JFrame {
-
-    private JLabel timeLabel;
-
-    public CurrentTimeLabel() {
-        super("Thời gian hiện tại");
-
-        // Tạo label để hiển thị thời gian
-        timeLabel = new JLabel();
-        timeLabel.setHorizontalAlignment(SwingConstants.CENTER);
-        timeLabel.setFont(new Font("Arial", Font.BOLD, 24));
-        updateTime();
-
-        // Tạo một timer để cập nhật thời gian mỗi giây
-        Timer timer = new Timer(1000, e -> updateTime());
-        timer.start();
-
-        // Thêm label vào frame
-        getContentPane().add(timeLabel, BorderLayout.CENTER);
-
-        // Thiết lập các thuộc tính của frame
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(300, 100);
-        setLocationRelativeTo(null);
-    }
-
-    private void updateTime() {
-        // Lấy thời gian hiện tại
-        SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
-        String time = dateFormat.format(new Date());
-
-        // Cập nhật label với thời gian hiện tại
-        timeLabel.setText(time);
-    }
-    
-    public JLabel getTimeLabel() {
-        return timeLabel;
-    }
 }
