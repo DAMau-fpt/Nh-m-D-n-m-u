@@ -32,9 +32,6 @@
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="Ctrl+L"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\FPT Polytechnic\daMau\src\main\java\image\key.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="&#x110;&#x103;ng nh&#x1ead;p"/>
               </Properties>
               <Events>
@@ -46,9 +43,6 @@
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="Ctrl+O"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\FPT Polytechnic\daMau\src\main\java\image\door.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="&#x110;&#x103;ng xu&#x1ea5;t"/>
               </Properties>
             </MenuItem>
@@ -56,9 +50,6 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="mnitDoiMK">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\FPT Polytechnic\daMau\src\main\java\image\exchange.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="&#x110;&#x1ed5;i m&#x1ead;t kh&#x1ea9;u"/>
               </Properties>
             </MenuItem>
@@ -68,9 +59,6 @@
               <Properties>
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="F10"/>
-                </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\FPT Polytechnic\daMau\src\main\java\image\stop.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="K&#x1ebf;t th&#xfa;c"/>
               </Properties>
@@ -84,17 +72,11 @@
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="mnitNguoiHoc">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\FPT Polytechnic\daMau\src\main\java\image\user.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Ng&#x1b0;&#x1edd;i h&#x1ecd;c"/>
               </Properties>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="mnitChuyenDe">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\FPT Polytechnic\daMau\src\main\java\image\documents.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Chuy&#xea;n &#x111;&#x1ec1;"/>
               </Properties>
               <Events>
@@ -103,9 +85,6 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="mnitKhoaHoc">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\FPT Polytechnic\daMau\src\main\java\image\online-course.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Kh&#xf3;a h&#x1ecd;c"/>
               </Properties>
               <Events>
@@ -114,9 +93,6 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="mnitNhanVien">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\FPT Polytechnic\daMau\src\main\java\image\audience (1).png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Nh&#xe2;n vi&#xea;n"/>
               </Properties>
             </MenuItem>
@@ -129,9 +105,6 @@
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="mnitNguoiHocTungNam">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\FPT Polytechnic\daMau\src\main\java\image\student.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Ng&#x1b0;&#x1edd;i h&#x1ecd;c t&#x1eeb;ng n&#x103;m"/>
               </Properties>
             </MenuItem>
@@ -139,17 +112,11 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="mnitBangDiemKhoa">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\FPT Polytechnic\daMau\src\main\java\image\transcript.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="B&#x1ea3;ng &#x111;i&#x1ec3;m kh&#xf3;a..."/>
               </Properties>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="mnitDiemTungKhoaHoc">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\FPT Polytechnic\daMau\src\main\java\image\transcript (1).png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="&#x110;i&#x1ec3;m t&#x1eeb;ng kh&#xf3;a h&#x1ecd;c"/>
               </Properties>
             </MenuItem>
@@ -157,9 +124,6 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="mnitDoangThu">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\FPT Polytechnic\daMau\src\main\java\image\dollar-symbol.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Doang thu t&#x1eeb;ng chuy&#xea;n &#x111;&#x1ec1;..."/>
               </Properties>
             </MenuItem>
@@ -175,9 +139,6 @@
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="F1"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\FPT Polytechnic\daMau\src\main\java\image\planet-earth.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="H&#x1b0;&#x1edb;ng d&#x1eab;n s&#x1eed; d&#x1ee5;ng"/>
               </Properties>
             </MenuItem>
@@ -185,9 +146,6 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="mnitGTSP">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="D:\FPT Polytechnic\daMau\src\main\java\image\house.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Gi&#x1edb;i thi&#x1ec7;u s&#x1ea3;n ph&#x1ea9;m"/>
               </Properties>
             </MenuItem>
@@ -228,7 +186,7 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="141" max="-2" attributes="0"/>
               <Component id="lbFPT" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="157" max="32767" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -238,7 +196,7 @@
               <Component id="jToolBar1" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
               <Component id="lbFPT" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="61" max="32767" attributes="0"/>
+              <EmptySpace pref="22" max="32767" attributes="0"/>
               <Component id="jToolBar2" min="-2" max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -255,7 +213,7 @@
         <Component class="javax.swing.JToggleButton" name="bntDangXuat">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="D:\FPT Polytechnic\daMau\src\main\java\image\door.png"/>
+              <Image iconType="3" name="/image/door.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="&#x110;&#x103;ng xu&#x1ea5;t"/>
             <Property name="focusable" type="boolean" value="false"/>
@@ -265,9 +223,6 @@
         </Component>
         <Component class="javax.swing.JButton" name="bntKetThuc">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="D:\FPT Polytechnic\daMau\src\main\java\image\stop.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="K&#x1ebf;t th&#xfa;c"/>
             <Property name="focusable" type="boolean" value="false"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -278,9 +233,6 @@
         </Component>
         <Component class="javax.swing.JToggleButton" name="bntChuyenDe">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="D:\FPT Polytechnic\daMau\src\main\java\image\documents.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Chuy&#xea;n &#x111;&#x1ec1;"/>
             <Property name="focusable" type="boolean" value="false"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -289,9 +241,6 @@
         </Component>
         <Component class="javax.swing.JToggleButton" name="bntNguoiHoc">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="D:\FPT Polytechnic\daMau\src\main\java\image\user.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Ng&#x1b0;&#x1edd;i h&#x1ecd;c"/>
             <Property name="focusable" type="boolean" value="false"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -300,9 +249,6 @@
         </Component>
         <Component class="javax.swing.JToggleButton" name="bntKhoaHoc">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="D:\FPT Polytechnic\daMau\src\main\java\image\online-course.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="Kh&#xf3;a h&#x1ecd;c"/>
             <Property name="focusable" type="boolean" value="false"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -313,9 +259,6 @@
         </Component>
         <Component class="javax.swing.JButton" name="bntHuongDan">
           <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="D:\FPT Polytechnic\daMau\src\main\java\image\planet-earth.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="H&#x1b0;&#x1edb;ng d&#x1eab;n"/>
             <Property name="focusable" type="boolean" value="false"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -336,20 +279,12 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI" size="14" style="0"/>
             </Property>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="D:\FPT Polytechnic\daMau\src\main\java\image\letter-i.png"/>
-            </Property>
             <Property name="text" type="java.lang.String" value="H&#x1ec7; qu&#x1ea3;n l&#xfd; &#x111;&#xe0;o t&#x1ea1;o"/>
           </Properties>
         </Component>
       </SubComponents>
     </Container>
     <Component class="javax.swing.JLabel" name="lbFPT">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="D:\FPT Polytechnic\daMau\src\main\java\image\logo-FPT-Polytechnic-.png"/>
-        </Property>
-      </Properties>
     </Component>
   </SubComponents>
 </Form>

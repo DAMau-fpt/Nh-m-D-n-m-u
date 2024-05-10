@@ -84,14 +84,13 @@ public class Controller extends javax.swing.JFrame {
 
         jToolBar1.setRollover(true);
 
-        bntDangXuat.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\door.png")); // NOI18N
+        bntDangXuat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/door.png"))); // NOI18N
         bntDangXuat.setText("Đăng xuất");
         bntDangXuat.setFocusable(false);
         bntDangXuat.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         bntDangXuat.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(bntDangXuat);
 
-        bntKetThuc.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\stop.png")); // NOI18N
         bntKetThuc.setText("Kết thúc");
         bntKetThuc.setFocusable(false);
         bntKetThuc.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -99,21 +98,18 @@ public class Controller extends javax.swing.JFrame {
         jToolBar1.add(bntKetThuc);
         jToolBar1.add(jSeparator6);
 
-        bntChuyenDe.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\documents.png")); // NOI18N
         bntChuyenDe.setText("Chuyên đề");
         bntChuyenDe.setFocusable(false);
         bntChuyenDe.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         bntChuyenDe.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(bntChuyenDe);
 
-        bntNguoiHoc.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\user.png")); // NOI18N
         bntNguoiHoc.setText("Người học");
         bntNguoiHoc.setFocusable(false);
         bntNguoiHoc.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         bntNguoiHoc.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(bntNguoiHoc);
 
-        bntKhoaHoc.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\online-course.png")); // NOI18N
         bntKhoaHoc.setText("Khóa học");
         bntKhoaHoc.setFocusable(false);
         bntKhoaHoc.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -121,7 +117,6 @@ public class Controller extends javax.swing.JFrame {
         jToolBar1.add(bntKhoaHoc);
         jToolBar1.add(jSeparator7);
 
-        bntHuongDan.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\planet-earth.png")); // NOI18N
         bntHuongDan.setText("Hướng dẫn");
         bntHuongDan.setFocusable(false);
         bntHuongDan.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -131,16 +126,12 @@ public class Controller extends javax.swing.JFrame {
         jToolBar2.setRollover(true);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\letter-i.png")); // NOI18N
         jLabel1.setText("Hệ quản lý đào tạo");
         jToolBar2.add(jLabel1);
-
-        lbFPT.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\logo-FPT-Polytechnic-.png")); // NOI18N
 
         mnHeThong.setText("Hệ Thống");
 
         mnitDangNhap.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_L, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        mnitDangNhap.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\key.png")); // NOI18N
         mnitDangNhap.setText("Đăng nhập");
         mnitDangNhap.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -150,18 +141,15 @@ public class Controller extends javax.swing.JFrame {
         mnHeThong.add(mnitDangNhap);
 
         mnitDangXuat.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_O, java.awt.event.InputEvent.CTRL_DOWN_MASK));
-        mnitDangXuat.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\door.png")); // NOI18N
         mnitDangXuat.setText("Đăng xuất");
         mnHeThong.add(mnitDangXuat);
         mnHeThong.add(jSeparator1);
 
-        mnitDoiMK.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\exchange.png")); // NOI18N
         mnitDoiMK.setText("Đổi mật khẩu");
         mnHeThong.add(mnitDoiMK);
         mnHeThong.add(jSeparator2);
 
         mnitThoat.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F10, 0));
-        mnitThoat.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\stop.png")); // NOI18N
         mnitThoat.setText("Kết thúc");
         mnHeThong.add(mnitThoat);
 
@@ -169,11 +157,9 @@ public class Controller extends javax.swing.JFrame {
 
         mnQuanLy.setText("Quản lý");
 
-        mnitNguoiHoc.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\user.png")); // NOI18N
         mnitNguoiHoc.setText("Người học");
         mnQuanLy.add(mnitNguoiHoc);
 
-        mnitChuyenDe.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\documents.png")); // NOI18N
         mnitChuyenDe.setText("Chuyên đề");
         mnitChuyenDe.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -182,7 +168,6 @@ public class Controller extends javax.swing.JFrame {
         });
         mnQuanLy.add(mnitChuyenDe);
 
-        mnitKhoaHoc.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\online-course.png")); // NOI18N
         mnitKhoaHoc.setText("Khóa học");
         mnitKhoaHoc.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -191,7 +176,6 @@ public class Controller extends javax.swing.JFrame {
         });
         mnQuanLy.add(mnitKhoaHoc);
 
-        mnitNhanVien.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\audience (1).png")); // NOI18N
         mnitNhanVien.setText("Nhân viên");
         mnQuanLy.add(mnitNhanVien);
 
@@ -199,21 +183,17 @@ public class Controller extends javax.swing.JFrame {
 
         mnThongKe.setText("Thống kê");
 
-        mnitNguoiHocTungNam.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\student.png")); // NOI18N
         mnitNguoiHocTungNam.setText("Người học từng năm");
         mnThongKe.add(mnitNguoiHocTungNam);
         mnThongKe.add(jSeparator3);
 
-        mnitBangDiemKhoa.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\transcript.png")); // NOI18N
         mnitBangDiemKhoa.setText("Bảng điểm khóa...");
         mnThongKe.add(mnitBangDiemKhoa);
 
-        mnitDiemTungKhoaHoc.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\transcript (1).png")); // NOI18N
         mnitDiemTungKhoaHoc.setText("Điểm từng khóa học");
         mnThongKe.add(mnitDiemTungKhoaHoc);
         mnThongKe.add(jSeparator4);
 
-        mnitDoangThu.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\dollar-symbol.png")); // NOI18N
         mnitDoangThu.setText("Doang thu từng chuyên đề...");
         mnThongKe.add(mnitDoangThu);
 
@@ -222,12 +202,10 @@ public class Controller extends javax.swing.JFrame {
         mnTroGiup.setText("Trợ giúp");
 
         mnitHDSD.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F1, 0));
-        mnitHDSD.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\planet-earth.png")); // NOI18N
         mnitHDSD.setText("Hướng dẫn sử dụng");
         mnTroGiup.add(mnitHDSD);
         mnTroGiup.add(jSeparator5);
 
-        mnitGTSP.setIcon(new javax.swing.ImageIcon("D:\\FPT Polytechnic\\daMau\\src\\main\\java\\image\\house.png")); // NOI18N
         mnitGTSP.setText("Giới thiệu sản phẩm");
         mnTroGiup.add(mnitGTSP);
 
@@ -247,7 +225,7 @@ public class Controller extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(141, 141, 141)
                 .addComponent(lbFPT)
-                .addContainerGap(157, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -255,7 +233,7 @@ public class Controller extends javax.swing.JFrame {
                 .addComponent(jToolBar1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(44, 44, 44)
                 .addComponent(lbFPT)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 61, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 22, Short.MAX_VALUE)
                 .addComponent(jToolBar2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
