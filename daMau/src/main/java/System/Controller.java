@@ -91,6 +91,7 @@ public class Controller extends javax.swing.JFrame {
         bntDangXuat.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
         jToolBar1.add(bntDangXuat);
 
+        bntKetThuc.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/stop.png"))); // NOI18N
         bntKetThuc.setText("Kết thúc");
         bntKetThuc.setFocusable(false);
         bntKetThuc.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
